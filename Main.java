@@ -16,9 +16,12 @@ class Main {
    double num2 = 5;
    double sum;
    boolean flag = true;
+   final double PI = 3.14159;//Creates and locks a constant variable
 
    System.out.println(flag);
-   sum = num1+num2;
+   sum = num1+num2*PI;
+
+  
    //Variables are never put inside quotes (“”) in System.out.print statements. This would print the variable name out letter by letter instead of printing its value.
    System.out.println(sum);
    System.out.println(num2);
